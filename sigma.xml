@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Module>
+    <ModulePrefs title="Your Gadget Title" 
+                 description="A description of your gadget"
+                 thumbnail=""
+                 author="Your Name"
+                 height="200"
+                 width="200">
+    </ModulePrefs>
+
+    <Content type="html">
+        <![CDATA[
+            <html>
+                <head>
+                    <script type="text/javascript">
+                        function init() {
+                            console.log('hi')
+                        }
+                    </script>
+                </head>
+                <body>
+                    <!-- Your HTML content here -->
+                    <h1>Hello, OpenSocial Gadget!</h1>
+                </body>
+            </html>
+        ]]>
+    </Content>
+</Module>
